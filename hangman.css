@@ -1,0 +1,91 @@
+body {
+    /* background-image: linear-gradient(to right, #f46b45, #eea849); */
+    background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2013/11/09/171868/f2c354a456260ef9bd33768936beaa85-1000.jpg");
+    color: white;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+* {
+    background-image:
+}
+
+h1 {
+    font-size: 80px;
+    color: #c0a8b1;
+}
+
+h3 {
+    font-size: 30px;
+    color: rgb(116, 194, 168);
+}
+
+.wrapper {
+    width: fit-content;
+    margin: auto;
+}
+
+.hint-div {
+    display: flex;
+    color: chartreuse;
+}
+
+.hint-btn,
+.reset-btn,
+.notif-btn {
+    cursor: pointer;
+}
+
+.reset-btn {
+    margin-left: auto;
+}
+
+.alpha {
+    width: 4rem;
+    height: 4rem;
+    background: #ffe5b4;
+    border: solid 4px black;
+    border-radius: 4px;
+    margin: 10px;
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+.alpha:hover {
+    background-color: #ff4806;
+    border: none;
+}
+
+.disabled {
+    pointer-events: none;
+    background-color: darkgray;
+}
+
+.word-div {
+    display: inline-flex;
+}
+
+.word {
+    margin-right: 1.5rem;
+}
+
+.notif {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fc6c85;
+    width: 20rem;
+    padding: 20px 10px;
+    border-radius: 4px;
+    box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.blur {
+    filter: blur(2px);
+}
+
+.hidden {
+    display: none;
+}
